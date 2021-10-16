@@ -39,12 +39,14 @@ body {
   }
 
   &-title {
-    font-size: 4rem;
+    font-size: 3rem;
+    line-height: 1.2;
     text-transform: uppercase;
     margin: 2rem 0;
     text-align: center;
     font-weight: 400;
-
+    padding: 30px 30px;
+    padding-bottom: 0;
     span {
       color: pink;
       font-weight: 300;
@@ -55,7 +57,7 @@ body {
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.3;
-    padding: 0 15px;
+    padding: 0 40px;
   }
 
   &-emailContainer {
@@ -101,7 +103,7 @@ body {
   }
 
   &-text {
-    background: #fff;
+    background: linear-gradient(#fff 50%, rgb(230, 204, 208));
     position: absolute;
     bottom: 0;
   }
